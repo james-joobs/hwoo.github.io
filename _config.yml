@@ -22,7 +22,7 @@ title: Hwoo's Portfolio & Blog
 email: stevepaulljobs@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   개발자 Hwoo의 포트폴리오와 블로그입니다. 프로젝트, 생각, 논문 리뷰 등을 공유합니다.
-baseurl: "/hwoo.github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://james-joobs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
