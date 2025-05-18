@@ -4,12 +4,14 @@ title: Thoughts
 permalink: /thoughts/
 ---
 
-# My Thoughts
+# Thoughts
 
-{% for post in site.categories.thoughts %}
-<article class="post-card">
-  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-  <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
-  <p>{{ post.excerpt }}</p>
-</article>
+{% assign thoughts = site.thoughts | sort: 'date' | reverse %}
+{% for thought in thoughts %}
+## [{{ thought.title }}]({{ thought.url | relative_url }})
+{{ thought.date | date: "%B %d, %Y" }}
+
+{{ thought.excerpt }}
+
+---
 {% endfor %} 

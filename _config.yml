@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Hwoo's Portfolio & Blog
+title: Hwoo's Blog
 email: stevepaulljobs@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  개발자 Hwoo의 포트폴리오와 블로그입니다. 프로젝트, 생각, 논문 리뷰 등을 공유합니다.
+  Welcome to Hwoo's blog. Here I share my thoughts and paper reviews.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://james-joobs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -29,15 +29,18 @@ github_username:  jekyll
 
 # Collections
 collections:
-  projects:
+  reviews:
     output: true
-    permalink: /projects/:path/
+    permalink: /reviews/:path/
   papers:
     output: true
     permalink: /papers/:path/
   news:
     output: true
     permalink: /news/:path/
+  thoughts:
+    output: true
+    permalink: /thoughts/:path/
 
 # Defaults
 defaults:
@@ -49,9 +52,9 @@ defaults:
       author: "Hwoo"
   - scope:
       path: ""
-      type: "projects"
+      type: "reviews"
     values:
-      layout: "project"
+      layout: "review"
   - scope:
       path: ""
       type: "papers"
@@ -61,12 +64,16 @@ defaults:
       path: ""
       type: "news"
     values:
-      layout: "news"
+      layout: "post"
+  - scope:
+      path: ""
+      type: "thoughts"
+    values:
+      layout: "post"
 
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
 
 # Include
