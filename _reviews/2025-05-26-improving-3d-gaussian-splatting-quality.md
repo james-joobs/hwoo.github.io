@@ -1,5 +1,5 @@
 ---
-layout: review
+layout: post
 title: "Improving 3D Gaussian Splatting Quality for Real-World Images: Practical Insights"
 date: 2025-05-26 20:00:00 +0900
 categories: [Computer Vision, 3D Reconstruction, Neural Rendering]

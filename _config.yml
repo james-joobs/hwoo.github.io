@@ -54,7 +54,7 @@ defaults:
       path: ""
       type: "reviews"
     values:
-      layout: "review"
+      layout: "post"
   - scope:
       path: ""
       type: "papers"
