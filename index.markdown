@@ -6,8 +6,13 @@ layout: home
 ---
 
 
-{% for post in site.posts limit:5 %}
-{% endfor %}
+## 👋 Welcome to Hwoo's Blog!
+
+I'm **Hyunwoo Joo**, a Machine Learning Engineer with a Ph.D. in Artificial Intelligence. I specialize in **3D Computer Vision**, **Embodied AI**, and **MLOps**. 
+
+🔗 **[View My Portfolio](/portfolio/)** | 🛠️ **[See My Projects](/projects/)** | 📧 **[Contact Me](mailto:stevepaulljobs@gmail.com)**
+
+---
 
 ## Latest Reviews
 {% assign reviews = site.reviews | sort: 'date' | reverse %}

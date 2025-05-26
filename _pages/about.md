@@ -10,7 +10,7 @@ permalink: /about/
 
 > *"Bridging the gap between AI research and real-world applications"* 🌉
 
-I'm a passionate Machine Learning Engineer who loves turning complex AI concepts into practical solutions. With a Ph.D. in Artificial Intelligence, I specialize in 3D Vision AI and MLOps, always excited to explore new technological frontiers! 🚀
+I'm a passionate **Machine Learning Engineer** and **Ph.D. in Artificial Intelligence** who specializes in transforming complex AI research into practical, production-ready solutions. My expertise spans **3D Computer Vision**, **Embodied AI Systems**, **Physical Simulation**, and **MLOps** infrastructure. I'm always excited to push the boundaries of what's possible with AI technology! 🚀
 
 ---
 
