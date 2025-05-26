@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CS598: 3D Vision Course Review - A Goldmine for Computer Vision Researchers"
-date: 2025-05-26 21:00:00 +0900
+date: 2025-05-20 21:00:00 +0900
 categories: [Computer Vision, 3D Vision, Education, SLAM]
 tags: [3D Vision, SLAM, University Course, Professor Shenlong Wang, UIUC, Educational Resources]
 author: Hwoo
