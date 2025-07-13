@@ -1,138 +1,75 @@
-# Hwoo's Portfolio & Blog
+# Hyunwoo Joo's ML Portfolio Blog
 
-> **Machine Learning Engineer | Ph.D. in Artificial Intelligence**  
-> *Specializing in 3D Computer Vision, Embodied AI, and MLOps*
+A clean, minimal Jekyll blog for sharing ML research, projects, and learning notes.
 
-🌐 **Live Site:** [https://james-joobs.github.io](https://james-joobs.github.io)
+## Structure
 
----
+- **Posts** (`_posts/`): In-depth articles and research content
+- **Projects** (`_projects/`): ML project documentation
+- **Notes** (`_notes/`): Quick learning notes and insights
+- **Pages** (`_pages/`): Static pages (About, etc.)
 
-## 🚀 About This Site
+## Quick Start
 
-This is my personal portfolio and technical blog where I share:
-
-- 💼 **Professional Experience** in AI/ML Engineering
-- 🛠️ **Technical Projects** and Research
-- 📝 **Blog Posts** on cutting-edge AI topics
-- 🔬 **Research Reviews** and Paper Analysis
-- 💭 **Technical Thoughts** and Insights
-
----
-
-## 🏗️ Site Structure
-
-```
-📁 Portfolio Website
-├── 🏠 Home (/)
-├── 👨‍💻 About (/about/)
-├── 💼 Portfolio (/portfolio/)
-├── 🛠️ Projects (/projects/)
-├── 📝 Reviews (/reviews/)
-├── 💭 Thoughts (/thoughts/)
-├── 📰 News (/news/)
-└── 📧 Contact
-```
-
----
-
-## 🛠️ Technical Stack
-
-- **Framework:** Jekyll (Ruby)
-- **Theme:** Minima (customized)
-- **Hosting:** GitHub Pages
-- **Domain:** github.io
-- **Features:** 
-  - Responsive design
-  - SEO optimization
-  - Live reload during development
-  - Collections for different content types
-
----
-
-## 🔧 Local Development
-
-### Prerequisites
-- Ruby (>= 2.7)
-- Bundler
-- Git
-
-### Setup & Run
+### Writing a New Post
 ```bash
-# Clone the repository
-git clone https://github.com/james-joobs/james-joobs.github.io.git
-cd james-joobs.github.io
+# Copy template and edit
+cp _templates/new-post.md _posts/YYYY-MM-DD-your-title.md
+```
 
+### Adding a Project
+```bash
+# Copy template and edit
+cp _templates/new-project.md _projects/project-name.md
+```
+
+### Creating a Quick Note
+```bash
+# Copy template and edit
+cp _templates/new-note.md _notes/note-title.md
+```
+
+## Development
+
+```bash
 # Install dependencies
 bundle install
 
-# Serve locally with live reload
+# Start local server
 bundle exec jekyll serve --livereload
 
-# Visit http://localhost:4000
+# View at http://localhost:4000
 ```
 
-### Creating Content
-```bash
-# New blog post
-touch _posts/YYYY-MM-DD-post-title.md
+## Features
 
-# New review
-touch _reviews/paper-review-title.md
+- 📱 Responsive design
+- 🚀 Fast loading
+- 📝 Markdown-first writing
+- 🔍 SEO optimized
+- 🎨 Clean, minimal design
+- 📊 Syntax highlighting for code
 
-# New thought
-touch _thoughts/thought-title.md
-```
+## Content Guidelines
 
----
-
-## 📚 Content Categories
-
-### 🔬 Research & Reviews
-- AI/ML paper reviews and analysis
+### Posts
+- Research insights
 - Technical deep dives
-- Research methodology discussions
+- Learning experiences
+- Industry analysis
 
-### 🛠️ Projects & Portfolio
-- Production AI systems
-- 3D Computer Vision projects
-- MLOps infrastructure
+### Projects
+- ML implementations
+- System designs
+- Experiments
 - Open source contributions
 
-### 💭 Technical Thoughts
-- Industry insights
-- Technology trends
-- Best practices and lessons learned
-
-### 📰 News & Updates
-- Conference presentations
-- Publication announcements
-- Career milestones
+### Notes
+- Quick learning points
+- Code snippets
+- Ideas and insights
+- Paper summaries
 
 ---
 
-## 🎯 Key Expertise Areas
-
-- **🤖 Embodied AI Systems**
-- **👁️ 3D Computer Vision**
-- **⚙️ MLOps & Infrastructure**
-- **🎮 Physics Simulation**
-- **☸️ Kubernetes & Containerization**
-- **🔥 Deep Learning (PyTorch/TensorFlow)**
-
----
-
-## 📞 Connect With Me
-
-- 📧 **Email:** [stevepaulljobs@gmail.com](mailto:stevepaulljobs@gmail.com)
-- 💼 **LinkedIn:** [linkedin.com/in/hyunwoo-joo-a501b27b/](https://www.linkedin.com/in/hyunwoo-joo-a501b27b/)
-- 💻 **GitHub:** [github.com/james-joobs](https://github.com/james-joobs)
-
----
-
-## 📄 License
-
-This website and its content are licensed under [MIT License](LICENSE).
-
----
-
-*"Always learning, always building, always pushing the boundaries of AI!"* 🚀
+Built with Jekyll & Minima theme

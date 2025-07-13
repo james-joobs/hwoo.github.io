@@ -4,19 +4,15 @@ title: About
 permalink: /about/
 ---
 
-![Profile Image](/assets/images/profile.jpg){: style="max-width: 150px; border-radius: 50%; float: right; margin: 0 0 20px 20px;"}
-
 # 👋 Hi, I'm Hyunwoo Joo!
 
 > *"Bridging the gap between AI research and real-world applications"* 🌉
 
-I'm a passionate **Machine Learning Engineer** and **Ph.D. in Artificial Intelligence** who specializes in transforming complex AI research into practical, production-ready solutions. My expertise spans **3D Computer Vision**, **Embodied AI Systems**, **Physical Simulation**, and **MLOps** infrastructure. I'm always excited to push the boundaries of what's possible with AI technology! 🚀
+I'm a passionate Machine Learning Engineer who loves turning complex AI concepts into practical solutions. With a Ph.D. in Artificial Intelligence, I specialize in 3D Vision AI and MLOps, always excited to explore new technological frontiers! 🚀
 
 ---
 
 ## 🎯 Technical Expertise
-
-![Tech Stack Visualization](/assets/images/tech-stack.png){: width="100%" style="margin: 20px 0;"}
 
 ### 🔧 Core Competencies
 ```python
@@ -57,8 +53,6 @@ skills = {
 ---
 
 ## 🎯 Professional Focus
-
-![AI Projects Showcase](/assets/images/ai-projects.png){: width="100%" style="margin: 20px 0;"}
 
 I'm fascinated by AI systems that can understand and interact with the physical world. My work combines:
 
